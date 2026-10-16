@@ -53,10 +53,10 @@ Los logos salen en gris y toman color al pasar el cursor.
 
 ## Publicar en GitHub Pages
 
-1. Crea un repositorio en GitHub (por ejemplo `gruborja`).
+1. El repositorio vive en la organización de GitHub `gruborja` y se llama `gruborja.github.io` (así el sitio se publica en la raíz).
 2. Sube el **contenido** de esta carpeta a la raíz del repositorio. `index.html` debe quedar en la raíz.
 3. Ve a **Settings → Pages**. En *Source* elige **Deploy from a branch**, rama `main`, carpeta `/ (root)`, y guarda.
-4. En uno o dos minutos el sitio estará en `https://<tu-usuario>.github.io/gruborja/`.
+4. En uno o dos minutos el sitio estará en `https://gruborja.github.io/`.
 
 El archivo `.nojekyll` ya está incluido para que GitHub publique los archivos tal cual.
 
