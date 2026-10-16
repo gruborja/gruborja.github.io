@@ -1,0 +1,56 @@
+/* ==========================================================
+   GRUBORJA · Página de la Ing. Lucía Borja (lucia.html)
+   Se carga DESPUÉS de fundador.css: reutiliza el mismo sistema
+   de láminas, cajetín, hitos, registro y cierre oscuro.
+   Aquí solo van las piezas que son propias de esta página.
+   ========================================================== */
+
+/* ---------- Cuatro frentes de control (lámina 04) ---------- */
+.frentes {
+  counter-reset: frente;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid var(--linea);
+  border-left: 1px solid var(--linea);
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+}
+
+.frente {
+  counter-increment: frente;
+  display: grid;
+  gap: .5rem;
+  align-content: start;
+  padding: clamp(1.1rem, 2.5vw, 1.6rem);
+  background: var(--blanco);
+  border-right: 1px solid var(--linea);
+  border-bottom: 1px solid var(--linea);
+}
+
+.frente::before {
+  content: counter(frente, decimal-leading-zero);
+  font-family: var(--fuente);
+  font-size: var(--t-xs);
+  font-weight: 600;
+  letter-spacing: .12em;
+  color: var(--violeta);
+  font-variant-numeric: tabular-nums;
+}
+
+.frente h3 {
+  font-size: var(--t-xl);
+  font-weight: 600;
+  color: var(--profundo);
+}
+
+.frente p {
+  font-size: var(--t-sm);
+  color: var(--gris);
+  max-width: 34em;
+}
+
+@media (max-width: 640px) {
+  .frentes { grid-template-columns: 1fr; }
+}
+
+/* Etiquetas sin margen inferior cuando cierran un bloque */
+.etiquetas--cierre { margin-bottom: 1.25rem; }

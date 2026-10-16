@@ -733,3 +733,35 @@ body.perfil-abierto {
   .nos-staff__caption { position: static; padding: var(--space-4) 0 0; background: none; }
   .nos-disciplinas { grid-template-columns: 1fr; }
 }
+
+
+/* ---------- ACTO 2 · BIS · LA GERENCIA (versión espejo del origen) ---------- */
+/* Misma estructura que .nos-legado, con la foto a la derecha y a color */
+.nos-legado--inversa .nos-legado__marco img {
+  filter: none;
+}
+
+.nos-legado--inversa .nos-legado__foto::before {
+  inset: 24px 24px -24px -24px;   /* el marco lineal se desplaza hacia el otro lado */
+}
+
+@media (min-width: 900px) {
+  .nos-legado--inversa .nos-legado__grid {
+    grid-template-columns: 6fr 5fr;
+  }
+
+  .nos-legado--inversa .nos-legado__foto {
+    order: 2;
+  }
+
+  .nos-legado--inversa .nos-legado__texto {
+    justify-self: end;
+  }
+}
+
+@media (max-width: 899px) {
+  .nos-legado--inversa .nos-legado__foto {
+    margin-right: 0;
+    margin-left: 24px;
+  }
+}
