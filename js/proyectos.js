@@ -348,6 +348,7 @@ function cerrarModal() {
 function abrirDesdeURL() {
   let id = location.hash.slice(1);
   if (id === "grupo-los-tres") id = "glt-showroom-volvo"; // enlace antiguo
+  if (id === "liceo-javier") id = "liceo-javier-reforzamiento"; // enlace antiguo (el proyecto se dividió)
   if (id && PROYECTOS.some((p) => p.id === id) && !(modal && modal.open)) {
     const lista = typeof proyectosFiltrados === "function" ? proyectosFiltrados() : undefined;
     abrirModalProyecto(id, lista);
