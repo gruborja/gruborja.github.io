@@ -108,11 +108,11 @@ const PROYECTOS = [
     sector: "comercial",
     tipologia: "Comercial — supermercado mayorista",
     area: "40,000 m²",
-    ubicacion: "8 sucursales en Guatemala",
+    ubicacion: "9 sucursales en Guatemala",
     cliente: "SUMA",
     fecha: "2012 – Actualidad",
-    alcance: ["Escuintla (23,000 m², 2011 – 2012)", "Chimaltenango (25,000 m², 2012 – 2013)", "Mazatenango", "Cobán", "Naranjo", "Quetzaltenango", "Huehuetenango", "Petén"],
-    descripcion: "Desarrollo continuo de la red de supermercados mayoristas SUMA en el interior del país: ocho sucursales proyectadas y ejecutadas con un estándar constructivo replicable.",
+    alcance: ["Escuintla (23,000 m², 2011 – 2012)", "Chimaltenango (25,000 m², 2012 – 2013)", "Mazatenango", "Cobán", "Naranjo", "Quetzaltenango", "Huehuetenango", "Petén", "Jutiapa"],
+    descripcion: "Desarrollo continuo de la red de supermercados mayoristas SUMA en el interior del país: nueve sucursales proyectadas y ejecutadas con un estándar constructivo replicable.",
     imagenes: 6,
     destacado: true
   },
@@ -129,7 +129,7 @@ const PROYECTOS = [
     fecha: "2011 – 2012",
     alcance: [],
     descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Escuintla, primera de la red en el interior del país.",
-    imagenes: 0,
+    imagenes: 4,
     destacado: false
   },
   {
@@ -145,7 +145,7 @@ const PROYECTOS = [
     fecha: "2012 – 2013",
     alcance: [],
     descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Chimaltenango, desarrollada con el estándar constructivo replicable de la red.",
-    imagenes: 0,
+    imagenes: 4,
     destacado: false
   },
   {
@@ -160,8 +160,8 @@ const PROYECTOS = [
     cliente: "SUMA",
     fecha: "",
     alcance: [],
-    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Mazatenango, parte de la red de ocho sucursales desarrollada por GRUBORJA.",
-    imagenes: 0,
+    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Mazatenango, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
+    imagenes: 4,
     destacado: false
   },
   {
@@ -176,8 +176,8 @@ const PROYECTOS = [
     cliente: "SUMA",
     fecha: "",
     alcance: [],
-    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Cobán, parte de la red de ocho sucursales desarrollada por GRUBORJA.",
-    imagenes: 0,
+    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Cobán, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
+    imagenes: 4,
     destacado: false
   },
   {
@@ -192,7 +192,7 @@ const PROYECTOS = [
     cliente: "SUMA",
     fecha: "",
     alcance: [],
-    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Naranjo, parte de la red de ocho sucursales desarrollada por GRUBORJA.",
+    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Naranjo, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
     imagenes: 0,
     destacado: false
   },
@@ -208,8 +208,8 @@ const PROYECTOS = [
     cliente: "SUMA",
     fecha: "",
     alcance: [],
-    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Quetzaltenango, parte de la red de ocho sucursales desarrollada por GRUBORJA.",
-    imagenes: 0,
+    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Quetzaltenango, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
+    imagenes: 5,
     destacado: false
   },
   {
@@ -224,8 +224,8 @@ const PROYECTOS = [
     cliente: "SUMA",
     fecha: "",
     alcance: [],
-    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Huehuetenango, parte de la red de ocho sucursales desarrollada por GRUBORJA.",
-    imagenes: 0,
+    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Huehuetenango, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
+    imagenes: 4,
     destacado: false
   },
   {
@@ -240,8 +240,24 @@ const PROYECTOS = [
     cliente: "SUMA",
     fecha: "",
     alcance: [],
-    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Petén, parte de la red de ocho sucursales desarrollada por GRUBORJA.",
-    imagenes: 0,
+    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Petén, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
+    imagenes: 3,
+    destacado: false
+  },
+  {
+    id: "suma-jutiapa",
+    nombre: "SUMA Jutiapa",
+    subtitulo: "Supermercado mayorista",
+    sector: "comercial",
+    grupo: "SUMA",
+    tipologia: "Comercial — supermercado mayorista",
+    area: "—",
+    ubicacion: "Jutiapa",
+    cliente: "SUMA",
+    fecha: "",
+    alcance: [],
+    descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Jutiapa, parte de la red desarrollada por GRUBORJA.",
+    imagenes: 4,
     destacado: false
   },
   {
@@ -257,7 +273,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Centro de distribución de SUMA en Naranjo.",
-    imagenes: 0,
+    imagenes: 5,
     destacado: false
   },
   {
@@ -287,7 +303,7 @@ const PROYECTOS = [
       ["Acabados y detalles", "Ing. Ricardo Brolo, Brasca"]
     ],
     descripcion: "Gestión integral de arquitectura, desarrollo de proyecto y diseño de mobiliario para infraestructura hospitalaria privada de alto nivel, ejecutada en dos fases bajo estándares médicos rigurosos.",
-    imagenes: 2,
+    imagenes: 6,
     destacado: false
   },
 
@@ -303,7 +319,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Clínicas Cardiocare en la zona 10 de la Ciudad de Guatemala.",
-    imagenes: 0,
+    imagenes: 6,
     destacado: false
   },
 /* ---------- AUTOMOTRIZ · GRUPO LOS TRES (orden cronológico) ----------
@@ -490,7 +506,7 @@ const PROYECTOS = [
     fecha: "2013 – Actualidad",
     alcance: ["Edificio de primaria", "Edificio de quintos y sextos", "Edificio de secundaria"],
     descripcion: "Reforzamiento de los edificios del colegio para actualizarlos a la normativa estructural vigente, por la seguridad de los estudiantes. Es un trabajo que continúa hoy.",
-    fotos: ["liceo-javier/liceo-javier-3.webp"],
+    imagenes: 6,
     destacado: false
   },
   {
@@ -506,7 +522,7 @@ const PROYECTOS = [
     fecha: "2013 – Actualidad",
     alcance: ["Polideportivo"],
     descripcion: "Polideportivo del Liceo Javier, parte de la relación de largo plazo con el colegio.",
-    imagenes: 0,
+    imagenes: 6,
     destacado: false
   },
   {
@@ -523,7 +539,7 @@ const PROYECTOS = [
     alcance: ["Kindergarten (1,200 m²)"],
     tecnica: ["El kindergarten forma parte de una ampliación del colegio de 15,000 m²"],
     descripcion: "Kindergarten del Liceo Javier, dentro de una ampliación del colegio de 15,000 m².",
-    fotos: ["liceo-javier/liceo-javier-4.webp", "liceo-javier/liceo-javier-5.webp"],
+    imagenes: 6,
     destacado: false
   },
   {
@@ -539,7 +555,7 @@ const PROYECTOS = [
     fecha: "2013 – Actualidad",
     alcance: ["Piscina"],
     descripcion: "Remodelación y habilitación de la piscina del Liceo Javier, con cubierta curva de estructura de acero.",
-    fotos: ["liceo-javier/liceo-javier-1.webp", "liceo-javier/liceo-javier-2.webp"],
+    imagenes: 5,
     destacado: true
   },
   {
@@ -554,7 +570,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Complejo de bodegas en Mazatenango.",
-    imagenes: 0,
+    imagenes: 5,
     destacado: false
   },
   {
@@ -569,7 +585,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Centro Comercial Santa Clara.",
-    imagenes: 0,
+    imagenes: 2,
     destacado: false
   },
   {
