@@ -67,13 +67,14 @@
 .nos-legado__foto::before {
   content: "";
   position: absolute;
-  inset: 24px -24px -24px 24px;
+  inset: 24px -24px auto 24px;   /* mismo tamaño que la foto, corrido 24px abajo-derecha */
+  aspect-ratio: 4 / 5;
   border: 1px solid var(--color-purple);
   z-index: -1;
 }
 
 .nos-legado__caption {
-  margin-top: var(--space-6);
+  margin-top: calc(var(--space-6) + 24px);   /* libera el marco que sobresale bajo la foto */
   font-size: var(--fs-xs);
   letter-spacing: var(--tracking-wide);
   text-transform: uppercase;
@@ -742,7 +743,7 @@ body.perfil-abierto {
 }
 
 .nos-legado--inversa .nos-legado__foto::before {
-  inset: 24px 24px -24px -24px;   /* el marco lineal se desplaza hacia el otro lado */
+  inset: 24px 24px auto -24px;   /* el marco lineal se desplaza hacia el otro lado */
 }
 
 @media (min-width: 900px) {
