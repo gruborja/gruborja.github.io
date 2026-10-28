@@ -294,6 +294,7 @@
   align-items: start;
 }
 .lamina__grid--parejo { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.lamina__grid--solo { grid-template-columns: minmax(0, 1fr); }
 
 @media (max-width: 760px) {
   .lamina__grid, .lamina__grid--parejo { grid-template-columns: 1fr; }
@@ -353,29 +354,6 @@
   padding: .7rem .9rem;
   font-family: var(--fuente); font-size: var(--t-xs); color: var(--gris);
   text-transform: uppercase; letter-spacing: .06em;
-}
-
-/* Espacio reservado para fotografía de archivo */
-.pendiente { margin: 0; }
-.pendiente__lienzo {
-  aspect-ratio: 4 / 5; max-width: 100%;
-  display: grid; place-items: center;
-  border: 1px dashed var(--violeta);
-  background-color: var(--blanco);
-  background-image:
-    linear-gradient(to right, rgb(94 23 121 / .08) 1px, transparent 1px),
-    linear-gradient(to bottom, rgb(94 23 121 / .08) 1px, transparent 1px),
-    linear-gradient(to top right, transparent calc(50% - .5px), rgb(94 23 121 / .18) 50%, transparent calc(50% + .5px)),
-    linear-gradient(to top left, transparent calc(50% - .5px), rgb(94 23 121 / .18) 50%, transparent calc(50% + .5px));
-  background-size: 20px 20px, 20px 20px, 100% 100%, 100% 100%;
-}
-.pendiente__lienzo span {
-  background: var(--blanco); padding: .4rem .8rem;
-  font-family: var(--fuente); font-size: var(--t-xs);
-  text-transform: uppercase; letter-spacing: .1em; color: var(--violeta);
-}
-.pendiente figcaption {
-  margin-top: .6rem; font-family: var(--fuente); font-size: var(--t-xs); color: var(--gris);
 }
 
 /* ---------- 10. Lámina 02: académico ---------- */
