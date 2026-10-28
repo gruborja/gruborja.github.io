@@ -291,7 +291,22 @@ const PROYECTOS = [
     destacado: false
   },
 
-  /* ---------- AUTOMOTRIZ · GRUPO LOS TRES (orden cronológico) ----------
+    {
+    id: "cardiocare",
+    nombre: "Clínicas Cardiocare",
+    subtitulo: "Clínica cardiológica",
+    sector: "hospitalario",
+    tipologia: "Hospitalaria — clínica",
+    area: "—",
+    ubicacion: "Zona 10, Ciudad de Guatemala",
+    cliente: "",
+    fecha: "",
+    alcance: [],
+    descripcion: "Clínicas Cardiocare en la zona 10 de la Ciudad de Guatemala.",
+    imagenes: 0,
+    destacado: false
+  },
+/* ---------- AUTOMOTRIZ · GRUPO LOS TRES (orden cronológico) ----------
      Mientras se confirma la información técnica, estos proyectos usan
      "fichaBasica: true": solo año, cliente y ubicación (sin áreas ni alcance). */
   {
@@ -467,7 +482,8 @@ const PROYECTOS = [
     nombre: "Liceo Javier — Reforzamiento estructural",
     subtitulo: "Edificios de primaria, quintos y sextos, y secundaria",
     sector: "academia",
-    tipologia: "Educativa",
+    grupo: "Liceo Javier",
+    tipologia: "Educativa — reforzamiento estructural",
     area: "—",
     ubicacion: "Villa Nueva",
     cliente: "Liceo Javier",
@@ -525,6 +541,36 @@ const PROYECTOS = [
     descripcion: "Remodelación y habilitación de la piscina del Liceo Javier, con cubierta curva de estructura de acero.",
     fotos: ["liceo-javier/liceo-javier-1.webp", "liceo-javier/liceo-javier-2.webp"],
     destacado: true
+  },
+  {
+    id: "bodegas-mazatenango",
+    nombre: "Complejo de Bodegas Mazatenango",
+    subtitulo: "Complejo de bodegas",
+    sector: "comercial",
+    tipologia: "Industrial — bodegas",
+    area: "—",
+    ubicacion: "Mazatenango",
+    cliente: "",
+    fecha: "",
+    alcance: [],
+    descripcion: "Complejo de bodegas en Mazatenango.",
+    imagenes: 0,
+    destacado: false
+  },
+  {
+    id: "santa-clara",
+    nombre: "Centro Comercial Santa Clara",
+    subtitulo: "Centro comercial",
+    sector: "comercial",
+    tipologia: "Comercial — centro comercial",
+    area: "—",
+    ubicacion: "Guatemala",
+    cliente: "",
+    fecha: "",
+    alcance: [],
+    descripcion: "Centro Comercial Santa Clara.",
+    imagenes: 0,
+    destacado: false
   },
   {
     id: "las-puertas",
