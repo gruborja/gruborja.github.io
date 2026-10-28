@@ -82,7 +82,7 @@ const PROYECTOS = [
       ["Construcción", "Castañeda y Molina"]
     ],
     descripcion: "Coordinación e integración de un proyecto icónico para la ciudad, que combina escala monumental con acabados de alto nivel, áreas públicas y un diseño estructural pensado para el turismo de clase mundial.",
-    imagenes: 2,
+    imagenes: 5,
     destacado: false
   },
   {
@@ -305,11 +305,27 @@ const PROYECTOS = [
     accion: [],
     tecnica: [],
     descripcion: "Remodelación de habitaciones y áreas de espera en los niveles 3 a 8 del Hospital Centro Médico, con acabados contemporáneos y ambientes pensados para el paciente y su familia.",
+    imagenes: 5,
+    destacado: false
+  },
+  {
+    id: "centro-medico-angiografo",
+    nombre: "Centro Médico · Sala de angiografía",
+    subtitulo: "Construcción de la sala del angiógrafo",
+    sector: "hospitalario",
+    tipologia: "Hospitalaria — sala de procedimientos",
+    area: "",
+    ubicacion: "Zona 10, Ciudad de Guatemala",
+    cliente: "Centro Médico",
+    fecha: "",
+    alcance: ["Construcción de sala de angiografía"],
+    accion: [],
+    tecnica: [],
+    descripcion: "Construcción de la sala del angiógrafo del Hospital Centro Médico, un espacio técnico para procedimientos de diagnóstico por imagen.",
     imagenes: 4,
     destacado: false
   },
-
-    {
+  {
     id: "cardiocare",
     nombre: "Clínicas Cardiocare",
     subtitulo: "Clínica cardiológica",
@@ -508,7 +524,7 @@ const PROYECTOS = [
     fecha: "2013 – Actualidad",
     alcance: ["Edificio de primaria", "Edificio de quintos y sextos", "Edificio de secundaria"],
     descripcion: "Reforzamiento de los edificios del colegio para actualizarlos a la normativa estructural vigente, por la seguridad de los estudiantes. Es un trabajo que continúa hoy.",
-    imagenes: 6,
+    imagenes: 3,
     destacado: false
   },
   {
@@ -524,7 +540,7 @@ const PROYECTOS = [
     fecha: "2013 – Actualidad",
     alcance: ["Polideportivo"],
     descripcion: "Polideportivo del Liceo Javier, parte de la relación de largo plazo con el colegio.",
-    imagenes: 6,
+    imagenes: 5,
     destacado: false
   },
   {
@@ -541,7 +557,7 @@ const PROYECTOS = [
     alcance: ["Kindergarten (1,200 m²)"],
     tecnica: ["El kindergarten forma parte de una ampliación del colegio de 15,000 m²"],
     descripcion: "Kindergarten del Liceo Javier, dentro de una ampliación del colegio de 15,000 m².",
-    imagenes: 6,
+    imagenes: 7,
     destacado: false
   },
   {
@@ -557,7 +573,7 @@ const PROYECTOS = [
     fecha: "2013 – Actualidad",
     alcance: ["Piscina"],
     descripcion: "Remodelación y habilitación de la piscina del Liceo Javier, con cubierta curva de estructura de acero.",
-    imagenes: 5,
+    imagenes: 3,
     destacado: true
   },
   {
@@ -661,7 +677,7 @@ const PROYECTOS = [
     alcance: ["Diseño y construcción de polideportivo"],
     tecnica: ["Sistemas estructurales de gran luz para espacios libres de columnas"],
     descripcion: "Diseño y construcción de instalaciones polideportivas y piscina cubierta, con sistemas estructurales de gran luz que crean espacios amplios y libres de columnas.",
-    imagenes: 4,
+    imagenes: 3,
     destacado: false
   },
   {
@@ -733,7 +749,7 @@ const PROYECTOS = [
       ["Construcciones metálicas", "APSA"]
     ],
     descripcion: "Hotel en Petén desarrollado en tres fases a lo largo de dos décadas, integrado con la selva y la laguna.",
-    imagenes: 3,
+    imagenes: 5,
     destacado: false
   },
   {
@@ -764,7 +780,7 @@ const PROYECTOS = [
     fecha: "2020 – 2022",
     alcance: ["Remodelación y habilitación de instalaciones"],
     descripcion: "Remodelación y habilitación de un hotel boutique de diseño en Antigua Guatemala, respetando el carácter del entorno colonial.",
-    imagenes: 3,
+    imagenes: 4,
     destacado: true
   },
   {
