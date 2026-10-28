@@ -102,21 +102,6 @@ const PROYECTOS = [
     destacado: false
   },
   {
-    id: "suma",
-    nombre: "Supermercados Mayoristas SUMA",
-    subtitulo: "Red de sucursales a nivel nacional",
-    sector: "comercial",
-    tipologia: "Comercial — supermercado mayorista",
-    area: "40,000 m²",
-    ubicacion: "9 sucursales en Guatemala",
-    cliente: "SUMA",
-    fecha: "2012 – Actualidad",
-    alcance: ["Escuintla (23,000 m², 2011 – 2012)", "Chimaltenango (25,000 m², 2012 – 2013)", "Mazatenango", "Cobán", "Naranjo", "Quetzaltenango", "Huehuetenango", "Petén", "Jutiapa"],
-    descripcion: "Desarrollo continuo de la red de supermercados mayoristas SUMA en el interior del país: nueve sucursales proyectadas y ejecutadas con un estándar constructivo replicable.",
-    imagenes: 6,
-    destacado: true
-  },
-  {
     id: "suma-escuintla",
     nombre: "SUMA Escuintla",
     subtitulo: "Supermercado mayorista",
@@ -129,7 +114,7 @@ const PROYECTOS = [
     fecha: "2011 – 2012",
     alcance: [],
     descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Escuintla, primera de la red en el interior del país.",
-    imagenes: 4,
+    imagenes: 3,
     destacado: false
   },
   {
@@ -145,7 +130,7 @@ const PROYECTOS = [
     fecha: "2012 – 2013",
     alcance: [],
     descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Chimaltenango, desarrollada con el estándar constructivo replicable de la red.",
-    imagenes: 4,
+    imagenes: 2,
     destacado: false
   },
   {
@@ -161,8 +146,8 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Mazatenango, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
-    imagenes: 4,
-    destacado: false
+    imagenes: 2,
+    destacado: true
   },
   {
     id: "suma-coban",
@@ -177,7 +162,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Cobán, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
-    imagenes: 4,
+    imagenes: 2,
     destacado: false
   },
   {
@@ -193,7 +178,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Naranjo, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
-    imagenes: 0,
+    imagenes: 1,
     destacado: false
   },
   {
@@ -209,7 +194,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Quetzaltenango, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
-    imagenes: 5,
+    imagenes: 1,
     destacado: false
   },
   {
@@ -225,7 +210,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Huehuetenango, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
-    imagenes: 4,
+    imagenes: 3,
     destacado: false
   },
   {
@@ -241,7 +226,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Petén, parte de la red de nueve sucursales desarrollada por GRUBORJA.",
-    imagenes: 3,
+    imagenes: 1,
     destacado: false
   },
   {
@@ -257,7 +242,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Sucursal de los Supermercados Mayoristas SUMA en Jutiapa, parte de la red desarrollada por GRUBORJA.",
-    imagenes: 4,
+    imagenes: 2,
     destacado: false
   },
   {
@@ -273,7 +258,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Centro de distribución de SUMA en Naranjo.",
-    imagenes: 5,
+    imagenes: 4,
     destacado: false
   },
   {
@@ -303,7 +288,24 @@ const PROYECTOS = [
       ["Acabados y detalles", "Ing. Ricardo Brolo, Brasca"]
     ],
     descripcion: "Gestión integral de arquitectura, desarrollo de proyecto y diseño de mobiliario para infraestructura hospitalaria privada de alto nivel, ejecutada en dos fases bajo estándares médicos rigurosos.",
-    imagenes: 6,
+    imagenes: 2,
+    destacado: false
+  },
+  {
+    id: "centro-medico-remodelacion",
+    nombre: "Centro Médico · Remodelación niveles 3 a 8",
+    subtitulo: "Remodelación de habitaciones y áreas de espera",
+    sector: "hospitalario",
+    tipologia: "Hospitalaria — remodelación",
+    area: "",
+    ubicacion: "Zona 10, Ciudad de Guatemala",
+    cliente: "Centro Médico",
+    fecha: "",
+    alcance: ["Remodelación de los niveles 3 a 8"],
+    accion: [],
+    tecnica: [],
+    descripcion: "Remodelación de habitaciones y áreas de espera en los niveles 3 a 8 del Hospital Centro Médico, con acabados contemporáneos y ambientes pensados para el paciente y su familia.",
+    imagenes: 4,
     destacado: false
   },
 
@@ -570,7 +572,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Complejo de bodegas en Mazatenango.",
-    imagenes: 5,
+    imagenes: 3,
     destacado: false
   },
   {
@@ -585,7 +587,7 @@ const PROYECTOS = [
     fecha: "",
     alcance: [],
     descripcion: "Centro Comercial Santa Clara.",
-    imagenes: 2,
+    imagenes: 1,
     destacado: false
   },
   {
@@ -704,7 +706,7 @@ const PROYECTOS = [
     fecha: "2014 – 2017",
     alcance: ["Sucursal San José Pinula", "Sucursal San Cristóbal", "Sucursal Martinico Zona 6 (4,000 m², 2014)"],
     descripcion: "Tres sucursales de supermercado con imagen comercial unificada y operación eficiente para el formato de proximidad.",
-    imagenes: 3,
+    imagenes: 2,
     destacado: false
   },
   {
@@ -789,7 +791,7 @@ const PROYECTOS = [
       ["Construcción", "APSA · Castañeda y Molina"]
     ],
     descripcion: "Edificio de oficinas profesionales con fachada de ladrillo y volúmenes curvos en la zona de Oakland.",
-    imagenes: 4,
+    imagenes: 2,
     destacado: false
   }
 ];
