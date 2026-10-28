@@ -96,9 +96,9 @@ document.querySelectorAll(".reveal").forEach((el) => observadorReveal.observe(el
 
 /* ---------------------------------------------------------
    4. CONTADORES ANIMADOS
-   Uso en HTML:  <span data-count="700000" data-prefix="+">
+   Uso en HTML:  <span data-count="1000000" data-prefix="+">
    --------------------------------------------------------- */
-const formatoNumero = new Intl.NumberFormat("en-US"); // 700,000 (formato usado en Guatemala)
+const formatoNumero = new Intl.NumberFormat("en-US"); // 1,000,000 (formato usado en Guatemala)
 
 function animarContador(elemento) {
   const final = Number(elemento.dataset.count);
