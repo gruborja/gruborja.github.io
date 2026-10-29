@@ -11,7 +11,7 @@
       · imagenes: 0  → se muestra la imagen genérica de GRUBORJA.
       · fotos: ["carpeta/archivo.webp", ...] → usa fotos de otra carpeta
         (rutas dentro de assets/img/proyectos/). Tiene prioridad sobre "imagenes".
-   4. "destacado: true" lo muestra también en la página de Inicio.
+   4. "destacado: false" lo muestra también en la página de Inicio.
    No hay que tocar HTML: el portafolio se arma solo.
 
    CAMPOS OPCIONALES DE LA FICHA TÉCNICA (si faltan, no se muestran):
@@ -143,7 +143,7 @@ const PROYECTOS = [
     accion: [],
     descripcion: "Sucursal de los supermercados mayoristas SUMA en Mazatenango, parte de la red de sucursales desarrollada por GRUBORJA para el Grupo de Tiendas Asociadas (GTA).",
     imagenes: 2,
-    destacado: true
+    destacado: false
   },
   {
     id: "suma-coban",
@@ -262,7 +262,7 @@ const PROYECTOS = [
     accion: ["Planificación arquitectónica", "Coordinación de ingenierías", "Supervisión general"],
     descripcion: "Centro de distribución de SUMA en Naranjo, edificio de estructura de acero y fachada, diseñado, planificado y supervisado por GRUBORJA durante su construcción.",
     imagenes: 4,
-    destacado: false
+    destacado: true
   },
   {
     id: "centro-medico",
@@ -284,11 +284,11 @@ const PROYECTOS = [
     ],
     descripcion: "Remodelación y ampliación del hospital en dos fases, con torre de encamamiento, sótanos de parqueo y centro de diagnóstico, ejecutadas con el hospital en operación.",
     imagenes: 2,
-    destacado: false
+    destacado: true
   },
   {
     id: "centro-medico-remodelacion",
-    nombre: "Centro Médico · Remodelación niveles 3 a 8",
+    nombre: "Centro Médico · Remodelación niveles 3 y 8",
     subtitulo: "Remodelación de habitaciones y áreas de espera",
     sector: "hospitalario",
     tipologia: "Hospitalaria — remodelación",
@@ -296,9 +296,9 @@ const PROYECTOS = [
     ubicacion: "Zona 10, Ciudad de Guatemala",
     cliente: "Centro Médico",
     fecha: "",
-    alcance: ["Remodelación de los niveles 3 a 8"],
+    alcance: ["Remodelación de los niveles 3 y 8"],
     accion: [],
-    descripcion: "Remodelación de habitaciones y áreas de espera en los niveles 3 a 8 del Hospital Centro Médico, en la zona 10 de la Ciudad de Guatemala.",
+    descripcion: "Remodelación de habitaciones y áreas de espera en los niveles 3 y 8 del Hospital Centro Médico, en la zona 10 de la Ciudad de Guatemala.",
     imagenes: 5,
     destacado: false
   },
@@ -585,7 +585,7 @@ const PROYECTOS = [
     alcance: ["Piscina"],
     accion: [],
     descripcion: "Remodelación y habilitación de la piscina del Liceo Javier, en Villa Nueva, con cubierta curva de estructura de acero.",
-    imagenes: 3,
+    imagenes: 4,
     destacado: true
   },
   {
@@ -650,7 +650,7 @@ const PROYECTOS = [
     accion: ACCION_INTEGRAL,
     descripcion: "Ampliación y remodelación de 16,000 m² para la Unidad Nacional de Oncología Pediátrica, dentro del área hospitalaria del Hospital Roosevelt, entre 2008 y 2010.",
     imagenes: 4,
-    destacado: false
+    destacado: true
   },
   {
     id: "edificio-hame",
@@ -760,7 +760,7 @@ const PROYECTOS = [
     ],
     descripcion: "Hotel en Petén desarrollado en tres fases entre 1989 y 2011, con arquitectura integrada a bosque, fauna y lagunas y sistemas constructivos de bajo impacto.",
     imagenes: 5,
-    destacado: false
+    destacado: true
   },
   {
     id: "villas-de-guatemala",

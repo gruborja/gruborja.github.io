@@ -9,7 +9,7 @@ const contenedorDestacados = document.querySelector("#destacados-grid");
 if (contenedorDestacados) {
   PROYECTOS
     .filter((proyecto) => proyecto.destacado)
-    .slice(0, 3) // máximo 3 para mantener la fila completa
+    .slice(0, 6) // máximo 6: dos filas completas en escritorio
     .forEach((proyecto) => {
       contenedorDestacados.appendChild(crearTarjetaProyecto(proyecto));
     });
