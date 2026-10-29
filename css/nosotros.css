@@ -81,6 +81,12 @@
   color: var(--color-text-soft);
 }
 
+/* Pie de foto en dos líneas: nombre y debajo el rol (evita cortes raros) */
+.nos-legado__nombre,
+.nos-legado__rol { display: block; }
+.nos-legado__nombre { color: var(--color-text); font-weight: 700; }
+.nos-legado__rol { margin-top: var(--space-1); }
+
 .nos-legado__texto {
   max-width: 560px;
 }
